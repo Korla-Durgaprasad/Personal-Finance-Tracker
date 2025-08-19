@@ -263,9 +263,6 @@ def list_transactions(engine: FinanceEngine, filter_func=None) -> None:
     for t in txs:
         print(format_transaction(t))
 
-# -----------------------------
-# Example Usage
-# -----------------------------
 
 if __name__ == "__main__":
     # Load existing data if present
