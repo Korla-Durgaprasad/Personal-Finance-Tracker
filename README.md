@@ -269,8 +269,8 @@ if __name__ == "__main__":
     store = load_store()
     engine = FinanceEngine(store)
 
-    # Simple demo: add some sample data if store is empty
-    if not engine.store.transactions:
+    
+if not engine.store.transactions:
         engine.add_income("2025-01-15", "Salary", 5000, "January salary")
         engine.add_expense("2025-01-16", "Rent", 1500, "January rent")
         engine.add_expense("2025-01-17", "Groceries", 320, "Supermarket")
